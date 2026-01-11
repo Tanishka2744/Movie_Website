@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- nav section -->
+
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">HUB</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a href="#home">Home</a></li>
+                    <li class="menu-list-item"><a href="#movies">Movies</a></li>
+                    <li class="menu-list-item"><a href="#series">Series</a></li>
+                    <li class="menu-list-item"><a href="#popular">Popular</a></li>
+                    <li class="menu-list-item"><a href="#trend">Trends</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img src="assets/Profileimg.jpg" alt="" class="profile-picture">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sidebar section -->
+
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-user"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <div class="container" id="home">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('assets/f-1.jpg');">
+                <img class="featured-tittle" src="assets/f-t-1.png" alt="">
+                <p class="featured-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium
+                    nihil deserunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, error.</p>
+                <button class="featured-button" >WATCH NOW</button>
+            </div>
+            <div class="movie-list-container" id="movies">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="line"></div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="assets/trending1.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">AZAAD</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trending2.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">CAPTAIN AMERICA</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trending3.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">KESARI CHAPTER2</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trending4.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">SIKANDAR</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending5.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">WOLFMAN</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending6.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">EXCLUSIVE PREVIEW</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending7.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">HOUSEFULL 5</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending8.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">METRO</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending9.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">CHHAAVA</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                         <div class="movie-list-item">
+                            <img src="assets/trending10.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">MAA</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+             <div class="movie-list-container" id="Series">
+                <h1 class="movie-list-title">SERIES</h1>
+                <div class="line"></div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="assets/series1.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">ANDHAR MAYA</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series2.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">MAI</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button"id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series3.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">UNDEKHI</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series4.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">HIS STORY</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series5.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">NIGHT CARNAGE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button"id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series6.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">PANCHAYAT</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series7.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">RUDRA</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series8.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">TANDAV</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series9.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">KHAKEE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/series10.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">GUTUR GU</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('assets/f-2.jpg');">
+                <img class="featured-tittle" src="assets/f-t-3.png" alt="">
+                <p class="featured-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium
+                    nihil deserunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, error.</p>
+                <button class="featured-button">WATCH NOW</button>
+            </div>
+             <div class="movie-list-container" id="popular">
+                <h1 class="movie-list-title">POPULAR</h1>
+                <div class="line"></div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="assets/popular1.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">GOBLIN</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular2.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">GEN Z</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular3.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">HIERARCHY</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button"id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular4.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">VINCENZO</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular5.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">GOLDEN BOY</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular6.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">NCR DAYS</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular7.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">ROCKET</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular8.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">SINNER</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular9.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">ASSAIAN</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/popular10.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">TITANIC</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+             <div class="movie-list-container" id="trend">
+                <h1 class="movie-list-title">TRENDS</h1>
+                <div class="line"></div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="assets/trend1.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">CRIMSON PEAK</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend2.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">ZOMBIE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend3.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">HALLOWEEN ENDS</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend4.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">VAMPIRE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend5.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">NIGHT CARNAGE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend6.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">THE WIFE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend7.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">THE GORGE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend8.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">INTERVIEW WITH THE VAMPIRE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend9.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">FRANKENSTEIN</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/trend10.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">LOVE AND MONSTORS</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+             <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('assets/f-t-2.jpg');">
+                <img class="featured-tittle" src="assets/f-3" alt="">
+                <p class="featured-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium
+                    nihil deserunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, error.</p>
+                <button class="featured-button">WATCH NOW</button>
+            </div>
+             <div class="movie-list-container" id="trend">
+                <h1 class="movie-list-title">VIDESI</h1>
+                <div class="line"></div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="assets/videsi1.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">EXTRA ORDINARY YOU</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi2.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">SUSPICIOUS PARTNER</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi3.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">NOTHING BUT YOU</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi4.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">SWEET AND SALTY OFFICE</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi5.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">PIOCCHIO</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi6.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">IT's OK TO NOT BE OKAY</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi7.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">SHE WAS PRETTY</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi8.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">DESCENDENT OF THE SUN</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videsi9.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">PYRAMID GAME</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="assets/videshi10.jpg" alt="" class="movie-list-item-img">
+                            <span class="movie-list-item-tittle">K2</span>
+                            <p class="movie-list-item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <button class="movie-list-item-button" id="watchBtn">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
