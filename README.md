@@ -1,2 +1,17 @@
-# Movie_Website
-Movie Hub is a modern, responsive, and interactive movie streaming website UI built using HTML, CSS, and Vanilla JavaScript. The platform showcases the latest movies, series, popular content, and trending titles in a visually appealing horizontal slider layout.
+# 🎬 Movie Hub – Streaming UI
+
+A modern and responsive Movie Streaming UI built using **HTML, CSS & JavaScript**.  
+Perfect for portfolio or learning projects.
+
+## Features
+
+- Horizontal movie sliders
+- Dark / Light toggle mode
+- Interactive Watch modal popup
+- Responsive & modern OTT-style layout
+
+## Tech Stack
+
+- HTML5
+- CSS3 (Flexbox, transitions)
+- Vanilla JavaScript
