@@ -10,7 +10,7 @@ Hi! I’m **Tanishka Khandelwal** 👩‍💻, a **Frontend Developer**.
 
 ## 🌐 Live Demo
 
-[🎬 View Movie Website Live](https://your-live-link-here.com)
+[🎬 View Movie Website Live](https://moviewebsite-five-eta.vercel.app/)
 
 ---
 
